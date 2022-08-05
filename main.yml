@@ -1,0 +1,4 @@
+# Execution file for etc/ansible/roles/configuration management
+import_tasks:install.yml
+import_tasks:configure.yml
+import_tasks:service.yml
